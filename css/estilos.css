@@ -1,0 +1,698 @@
+body {
+	background: whitesmoke;
+	margin: 0px;
+	padding: 	0px;
+
+}
+header {
+	background: 	green;
+	
+}
+
+header .contenedor {
+	display: flex;
+	width: 100%;
+	justify-content: 	space-between;
+	
+	
+	
+}
+
+
+/* IZQUIERDA ------------------------------------- */
+
+
+
+.contenedor .izquierda {
+	font-size: 40px;
+	width: 25%;
+	
+	display: 	flex;
+	align-items: center;
+	
+
+}
+
+.contenedor .izquierda .texto {
+	text-align: center;
+	width:  50%;
+	text-decoration: none;
+	font-size: 40px;
+
+}
+.contenedor .izquierda .texto a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Kanit';
+}
+
+
+/* IZQUIERDA ------------------------------------- */
+
+
+
+
+/* DERECHA -------------------- */
+.contenedor .derecha {
+	
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+}
+.contenedor .derecha .buscar {
+	width: 	100%;
+}
+.contenedor .derecha form {
+	display: flex;
+	
+	align-items: center;
+	margin-bottom: 0px;
+	width: 40%;
+	
+
+
+}
+
+
+.contenedor .derecha .busqueda {
+	position: relative	;
+	border: 	1px solid white	;
+	padding: 5px;
+
+}
+.busqueda input[type="text"]{
+	
+	text-decoration: 	none;
+	outline: none;
+	font-family: 'Kanit';
+	font-weight: 	400;
+	padding: 	5px;
+	font-size: 20px;
+	background: none;
+	border: none;
+	opacity: 	0.5px;
+	color: 	white	;
+	height: 40px;
+	transition:  0.9s ease-in-out;
+	
+	width: 50%;
+	border-bottom: 5px solid white	;
+	
+	
+
+
+
+	
+
+}
+.busqueda input:focus{
+	border-bottom: 	5px solid white;
+	width: 	100%;
+
+
+}
+
+.contenedor .derecha form button {
+	font-size: 30px;
+	right:  0%;
+	top:  0%;
+	bottom: 	0%;
+	position: absolute	;
+	background: none;
+	border:  none;
+	color: white;
+
+}
+
+/* REDES */
+
+.contenedor .derecha .todo {
+	width: 100%;
+}
+.contenedor .derecha .todo  ul {
+	font-size: 20px;
+	text-decoration: none;
+	list-style:  none;
+	display: flex;
+	align-items: center;
+	
+
+	
+}
+
+.contenedor .derecha .todo ul li a i{
+	color: white;
+	margin: 	10px;
+	font-family: 'Kanit';
+	text-decoration:  none;
+	font-size: 27px;
+
+}
+.contenedor .derecha .todo ul li {
+	height: auto;
+	font-family: 'Kanit';
+	
+
+
+}
+
+.contenedor .derecha .menu ul li a {
+	color: white;
+	margin-right: 	10px;
+	font-family: 'Kanit';
+	text-decoration:  none;
+	font-size: 27px;
+
+
+
+}
+.contenedor .derecha .todo ul .envelope a i{
+	
+	text-align: 	center	;
+	
+}
+.contenedor .derecha .todo li:hover {
+	transition: all 2s ease;
+	opacity: 0.5;
+
+
+}
+/* REDES */
+
+
+/* DERECHA -------------------- */
+
+
+
+/* ARTICULOS ----------------- */
+
+.contenedor {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contenedor article {
+	margin: 	20px;
+}
+.contenedor .posts {
+	background: antiquewhite;
+	margin: 20px;
+	box-shadow: 2px 2px  grey;
+	width: 80%;
+
+}
+
+.contenedor .posts  h2 a{
+	font-family: 'Kanit';
+	font-weight: 400;
+	text-decoration: 	none;
+	color: 	black	;
+	font-weight: 	600;
+
+}
+
+.contenedor .posts .fecha {
+	font-family: 'Kanit';
+	font-weight: 200;
+}
+
+.contenedor .posts .continuar a {
+	color: red;
+
+}
+.contenedor .posts .extracto {
+	font-family: 'Kanit';
+	font-weight: 300;
+}
+.contenedor .posts .thumb a img {
+	height: 200px;
+	width: 100%;
+	
+
+}
+
+
+
+
+
+/* ARTICULOS ----------------- */
+
+
+/* PAGINACION --------------*/
+.paginacion {
+	width: 100%;
+
+	
+}
+.paginacion ul {
+	display: 	flex;
+	justify-content: 	center;
+
+
+}
+
+
+.paginacion ul li {
+	list-style: none;
+	margin: 20px;
+	background: 	green;
+	font-size: 	20px;
+	width: 50px;
+	height: 50px	;
+	display: 	flex;
+	justify-content: 	center	;
+	align-items: 	center	;
+	color: 	white;
+	font-family: 	'Kanit';
+}
+
+.paginacion ul li a {
+	font-family: 	'Kanit';
+	color: 	white	;
+	text-decoration: 	none;
+}
+
+.paginacion ul .active{
+	background: navajowhite;
+	
+
+	
+}
+
+.ver {
+	position: relative	;
+}
+/* PAGINACION --------------*/
+
+
+
+/* FOOTER ------------------ */
+
+footer {
+	background: 	green;
+
+}
+
+footer .copyright {
+	font-family: 	'Kanit';
+	text-align: 	center	;
+	color:  white;
+}
+/* FOOTER ------------------ */
+
+
+/* LOGIN */
+
+.contenedor .post .formulario {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center ;
+	
+
+}
+.contenedor .post  h2 {
+	font-family: 'Kanit';
+	text-align: center;
+	font-weight: 200;
+	}
+.contenedor .post .formulario input{
+	width: 50%;
+	height: 50px;
+	margin: 20px;
+	font-family: 'Kanit';
+	font-size: 20px;
+	outline: none;
+	border: none;
+	border-radius: 2px;
+
+
+	}
+
+.contenedor .post .formulario input[type="submit"]:hover{
+	cursor: pointer;
+}
+
+
+
+/* LOGIN /*
+
+
+
+/* PANEL DE CONTROL */
+.contenedor .superior {
+	display: 	flex	;
+		width: 	100%;
+	justify-content: 	center;
+}
+
+
+
+.contenedor h2{
+	font-size: 	35px;
+	font-family: 'Kanit';
+	
+
+
+
+	
+
+}
+
+.contenedor .edicion {
+	margin-bottom: 	20px;
+
+}
+
+.contenedor .edicion a{
+text-decoration: 	none;
+font-family: 	'Kanit';
+color: 	white	;
+background: 	green	;
+border-radius: 	5px;
+padding:15px;
+
+}
+
+.contenedor .postos {
+	width: 100%;
+	background: 	darkolivegreen;
+
+	
+	margin-bottom: 	10px;
+	padding: 10px;
+
+	
+}
+
+.contenedor .postos .poste {
+	width: 	100%;
+
+
+}
+.contenedor .postos .poste article a {
+	background: 	green;
+	padding: 20px;
+	text-decoration: 	none	;
+	color: 	white;
+	font-family: 	'Kanit';
+}
+
+
+/* PANEL DE CONTROL */
+
+
+
+/* NUEVO POST */
+
+.post article textarea {
+	width: 	100%;
+	max-width: 	50%;
+	min-width: 	50%;
+	max-height: 	400px;
+	
+	
+}
+
+.post article form input[type="submit"]{
+	font-size: 	40px;
+	background: 	green	;
+}
+
+
+/* NUEVO POST */
+
+
+
+/* CONTACTO */
+
+
+.contenedorform {
+	display: flex;
+	width: 100%;
+	justify-content: 	center;
+	
+
+}
+.contenedorform form {
+	width: 60%;
+
+	
+
+
+
+}
+.contenedorform form .for-control {
+	width: 100%;
+	padding: 10px;
+	margin: 	10px;
+	font-family: 	'Kanit';
+	outline: 	none;
+	border: 	none;
+	box-shadow: 	1px 0.5px 0.5px 0.5px black;
+}
+
+.contenedorform form .area{
+	
+	padding: 10px;
+	font-family: 	'Kanit';
+	min-width: 	100%;
+	max-width: 100%;
+	max-height: 400px;
+	min-height: 200px;
+	margin: 	10px;
+	border: 	none;
+	box-shadow: 	1px 0.5px 0.5px 0.5px black;
+	outline: 	none;
+
+
+}
+.submitt {
+	display: flex;
+	justify-content: 	center;
+	
+}
+.submit {
+	font-family: 	'Kanit';
+	border-radius: 	5px;
+
+	color: 	black;
+	background: 	green;
+	padding: 10px;
+	border: none;
+	outline: 	none;
+	
+	
+}
+
+.submit:hover{
+	cursor: pointer;
+
+}
+	
+
+
+.contenedorform form .alerterror{
+	font-family: 	'Kanit';
+	border-radius: 	5px;
+	font-weight: 600;
+	
+	margin: 	10px;
+	color: 	red;
+	width: 	100%;
+
+
+	
+
+	
+}
+
+.contenedorform form .alertsuccess {
+	font-family: 	'Kanit';
+	border-radius: 	5px;
+	background: green	;
+	color: 	white;
+
+	
+
+}
+
+.sito {
+	display: 	none;
+
+}
+
+.despliegue {
+	
+	display: flex;
+	width: 50%;
+	
+}
+::placeholder{
+	color: black;
+}
+
+
+/* CONTACTO */
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px){
+	.contenedor	{
+		width: 	100%;
+		
+	}
+
+	header .menuPrincipal {
+		flex: wrap;
+		display: 	flex;
+	}
+
+	.contenedor	 .derecha {
+		
+		width: 100%;
+		flex-wrap: 	wrap	;
+	}
+
+	.derecha  form .busqueda {
+		width: 100%;
+		
+	}
+	.derecha .menu {
+		width: 	100%;
+		display: flex;	
+		justify-content: center;
+	}
+	
+
+
+	.contenedor .izquierda {
+		width: 100%;
+		display: 	flex;
+		justify-content: 	center;
+	}
+	
+	.lookfor {
+		width: 100%;
+		display: 	flex;
+		justify-content: center;
+	
+	}
+	.derecha .lookfor .buscar {
+		width: 30%;
+	
+	}
+
+
+		.contenedor .derecha .menu ul {
+			margin: 	auto;
+			margin-top: 	20px;
+		}
+
+
+	.todo {
+		width: 40%;
+		display: 	flex;
+		justify-content: 	center;
+		
+	}
+
+	.contenedor  {
+		display: 	flex;
+		justify-content: 	center;
+	}
+
+		.busqueda input[type="text"] {
+	width: 	100%;
+	color: 	black;
+	::placeholder
+	color:red;
+		}
+
+
+}
+
+@media screen and (max-width: 700px){
+	
+	.derecha .menu {
+		width: 	50%;
+		float: right;
+	}
+
+
+		.contenedor .derecha .menu ul {
+			display: 	inline-block;
+			float: right;
+		}
+
+
+		.contenedor .derecha .menu ul li {
+			margin: 20px;
+			text-align: 	center	;
+		}
+	.sito {
+		font-size: 	40px;
+		color: white;
+		
+	}
+	
+
+	.sito i {
+		border: 1px solid white;
+		margin: 	20px;
+	
+	}
+
+	button {
+		visibility: hidden	;
+	}
+
+
+		.contenedor .derecha .busqueda {
+	border: none;
+		}
+
+
+	.todo .menu {
+	display: 	none;
+		
+	}
+	.sito {
+		display: 	flex;
+	}
+		.contenedor .derecha  {
+	
+			display: 	flex;
+			justify-content: 	space-between;
+		}
+
+			.contenedor .derecha .lookfor {
+	
+			display: 	flex;
+			justify-content: 	space-between;
+		}
+
+		.contenedor .izquierda {
+			width: 	100%;
+			display: 	flex;
+			justify-content: 	center;
+
+		}
+		.contenedor .izquierda .texto {
+			width: 100%
+
+		}
+
+
+}
+
+
+
